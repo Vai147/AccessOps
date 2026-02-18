@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#1a1f2e" />
+    <meta
+      name="description"
+      content="AccessOps — Accessible AI-Powered Incident Intelligence Platform. Real-time cloud monitoring with machine learning anomaly detection and WCAG 2.1 AA compliant interface."
+    />
+    <meta name="author" content="AccessOps Team" />
+
+    <!-- Open Graph for sharing -->
+    <meta property="og:title" content="AccessOps — Incident Intelligence Platform" />
+    <meta property="og:description" content="AI-powered cloud monitoring with accessible UI" />
+    <meta property="og:type" content="website" />
+
+    <title>AccessOps — Incident Intelligence Platform</title>
+
+    <!--
+      Skip-to-content link is rendered by React (App.jsx) for full
+      keyboard accessibility. The anchor #main-content is placed on the
+      <main> element inside the React tree.
+    -->
+
+    <style>
+      /* Critical above-the-fold styles — prevents FOUC */
+      *, *::before, *::after { box-sizing: border-box; }
+      body {
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+          Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        background-color: #f5f7fa;
+        color: #1a1f2e;
+      }
+      #root { min-height: 100vh; }
+    </style>
+  </head>
+  <body>
+    <noscript>
+      <div style="padding: 2rem; text-align: center; font-size: 1.1rem;">
+        AccessOps requires JavaScript to run. Please enable JavaScript in your
+        browser settings to use this application.
+      </div>
+    </noscript>
+    <div id="root"></div>
+  </body>
+</html>
