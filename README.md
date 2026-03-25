@@ -13,7 +13,6 @@ AccessOps is a cloud monitoring platform that combines real machine learning wit
 
 ## Accessibility Features
 
-- Skip-to-content link
 - Full keyboard navigation with visible focus indicators
 - `aria-live` regions for dynamic alert announcements
 - Screen-reader-friendly chart data tables (visually hidden)
